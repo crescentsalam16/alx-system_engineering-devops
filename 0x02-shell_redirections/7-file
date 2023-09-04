@@ -1,4 +1,5 @@
 #!/bin/bash
-xargs -d'\n' touch -- << '.'
+touch -- "$(cat << 'Best School'
 \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
 .
+)"
